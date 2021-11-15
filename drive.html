@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Draw cube with specification of single color</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="800" height="800">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <script src="./src/DrawShapes.js"></script>
+    <script src="./lib/webgl-debug.js"></script>
+    <script src="./lib/webgl-utils.js"></script>
+    <script src="./lib/cuon-matrix.js"></script>
+    <script src="./lib/cuon-utils.js"></script>
+    <div class="Buttons">
+      <input type="button" id="vnButton" value="Visualize Normals">
+    </div>
+    <div class="Buttons">
+      <input type="button" id="lButton" value="Lighting: On/OFF">
+    </div>
+
+    Controls:
+    <br>
+    <p>
+        <br>W: Foward
+        <br>A: left
+        <br>S: Backwards
+        <br>D: Right
+        <br>Drag with mouse to look around
+  </body>
+  </body>
+</html>
